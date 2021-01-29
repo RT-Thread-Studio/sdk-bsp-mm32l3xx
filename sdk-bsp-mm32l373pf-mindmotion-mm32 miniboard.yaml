@@ -1,0 +1,113 @@
+board:
+  buy_url_cn: http://www.mindmotion.com.cn/default.aspx
+  buy_url_global: http://www.mindmotion.com.cn/en/
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: Mm32 miniboard rev.d2 is an entry-level development board for users
+    to quickly start and learn mm32 Series MCU, which can meet the needs of basic
+    testing and high-end development.
+  description_zh: MM32 MiniBoard Rev.D2 是为了用户快速上手、了解学习MM32系列MCU的一块入门级开发板，可满足基础测试及高端开发需求。
+  emulator_machine: ''
+  large_image: documents/images/No-image.png
+  name: MM32L373PF-MM-MM32-MiniBoard
+  price_cn: 189 CNY
+  price_global: 27.99 USD
+  sale_contact_cn: http://www.mindmotion.com.cn/default.aspx
+  sale_contact_global: http://www.mindmotion.com.cn/en/
+  small_image: documents/images/No-image.png
+  vendor: MindMotion
+  version: 1.0.0
+chip:
+  chip_name: MM32L373PF
+  clock_source: HSE
+  device_vendor: MindMotion
+  family_name: MM32
+  rx_name: PA10
+  series_name: MM32L3
+  source_freq: '8000000'
+  sub_series_name: MM32L373
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/UM_MM32L3xx_n_V1.69_SC.pdf
+  title: UM_MM32L3xx_n_V1
+- category: sheet
+  file: documents/DS_MM32L3xx_n_V1.07_SC.pdf
+  title: DS_MM32L3xx_n_V1
+example_projects: []
+features:
+- 'Led: four 4-color LEDs, which can be used to test GPIO function'
+- 'Key: 1 reset key, 1 wakeup key and 2 ordinary keys'
+- SPI flash w25p80, capacity 8m bit, speed 50MHz
+- I2C interface EEPROM chip, AT24C02, capacity 256 bytes
+- 1 rotary potentiometer (rheostat) for ADC test
+- 'Energy consumption test switch: standby mode and operation mode'
+features_zh:
+- LED：4个4色LED，可用于测试GPIO功能
+- 按键：1个复位按键、 1个WakeUp按键、两个普通按键
+- SPI Flash W25P80，容量8M bit，速度50MHz
+- I2C接口EEPROM芯片，AT24C02，容量256字节
+- 1个旋转式电位计（变阻器），用于ADC测试
+- 能耗测试开关：待机模式和运行模式
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - cconfig.h
+    - drivers
+    - figures
+    - Kconfig
+    - Libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig.pyc
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: 'MCU：MM32L373PF  ARM 32-bit Cortex-M3，主频 96MHz，128KB FLASH
+    ，20KB SRAM
+
+    常用接口：Micro-USB接口，RS-232接口，UART接口'
+  project_name: MM32_MiniBoard
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
