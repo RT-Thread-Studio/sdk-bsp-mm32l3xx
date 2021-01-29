@@ -3,9 +3,7 @@ board:
   buy_url_global: http://www.mindmotion.com.cn/en/
   debug_interface: SWD
   debugger: ST-LINK
-  description_en: Mm32 miniboard rev.d2 is an entry-level development board for users
-    to quickly start and learn mm32 Series MCU, which can meet the needs of basic
-    testing and high-end development.
+  description_en: Mm32 miniboard rev.d2 is an entry-level development board for users to quickly start and learn mm32 Series MCU, which can meet the needs of basic testing and high-end development.
   description_zh: MM32 MiniBoard Rev.D2 是为了用户快速上手、了解学习MM32系列MCU的一块入门级开发板，可满足基础测试及高端开发需求。
   emulator_machine: ''
   large_image: documents/images/No-image.png
@@ -104,10 +102,7 @@ template_projects:
     package_version: latest
     source_path_offset: rt-thread
     target_path_offset: rt-thread
-  project_description: 'MCU：MM32L373PF  ARM 32-bit Cortex-M3，主频 96MHz，128KB FLASH
-    ，20KB SRAM
-
-    常用接口：Micro-USB接口，RS-232接口，UART接口'
+  project_description: 'MCU：MM32L373PF  ARM 32-bit Cortex-M3，主频 96MHz，128KB FLASH，20KB SRAM  常用接口：Micro-USB接口，RS-232接口，UART接口'
   project_name: MM32_MiniBoard
   project_type: rt-thread|@full|@latest
 yaml_version: 3
