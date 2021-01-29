@@ -7,7 +7,7 @@ board:
   description_zh: MM32 MiniBoard Rev.D2 是为了用户快速上手、了解学习MM32系列MCU的一块入门级开发板，可满足基础测试及高端开发需求。
   emulator_machine: ''
   large_image: documents/images/No-image.png
-  name: MM32L373PF-MM-MM32-MiniBoard
+  name: MM32L373PF-MM-MM32-MINIBOARD
   price_cn: 189 CNY
   price_global: 27.99 USD
   sale_contact_cn: http://www.mindmotion.com.cn/default.aspx
